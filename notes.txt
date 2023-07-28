@@ -1,0 +1,10 @@
+axios
+express
+dotenv
+chakraui
+react-router-dom -> browserrouter, route for multiple pages
+cors-cross origin errors
+useEffect-a hook in react which runs when the component is rendered for the first time
+jwt-https://jwt.io/introduction,  https://jwt.io/
+express-async-handler
+context api=>context api helps us manage the state of our app it helps us put the state at the top so that we can fetch the state directly from one single place. it creates one single source of truth for our state
