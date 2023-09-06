@@ -80,4 +80,4 @@ const allUsers = asyncHandler(async (req, res) => {
   const user = await User.find(keyword).find({ _id: { $ne: req.user._id } });
   res.send(user);
 });
-module.exports = { registerUser, authUser, allUsers };
+module.exports = { registerUser, authUser, allUsers }; 
